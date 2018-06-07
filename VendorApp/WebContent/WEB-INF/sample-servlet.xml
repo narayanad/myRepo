@@ -27,7 +27,7 @@
 	<bean class="org.springframework.jdbc.datasource.DriverManagerDataSource"
 		name="dsObj" p:driverClassName="oracle.jdbc.driver.OracleDriver"
 		p:url="jdbc:oracle:thin:@localhost:1521:xe" p:username="sathya"
-		p:password="india" />
+		p:password="tiger" />
 	<!-- ASFB obj -->
 	<bean
 		class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"
